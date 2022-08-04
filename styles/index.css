@@ -1,1 +1,118 @@
+/* Get Fonts from Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mouse+Memoirs&display=swap');
 
+/* CSS Variables */
+:root {
+  --font-1: 'Courgette', cursive, sans-serif;
+  --font-2: 'Mouse Memoirs', sans-serif;
+  --color-1: #FFFFFF;
+  --color-2: #051622;
+  --color-3: #1BA098;
+  --color-4: #007344;
+  --color-5: #E40C2B;
+}
+/* Base Rates */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+    /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-size: 1.8rem;
+  font-family: var(--font-1);
+  font-weight: 400;
+  line-height: 1.4;
+  background: var(--color-2);
+  color: var(--color-1);
+}
+
+nav {
+  font-family: var(--font-2);
+  font-size: 2em;
+  width: 100%;
+  height: 3em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: var(--color-2)
+}
+
+#nav-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0.4em;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+#line {
+  display: block;
+  border: 1px solid;
+  width: 75%;
+  margin: 0.4em auto;
+}
+
+#main {
+  margin-top: 6em;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.highlight {
+  color: var(--color-3)
+}
+
+img {
+  border: 1px solid;
+  width: 10em;
+  height: 10em;
+}
+
+.headline {
+  text-align: center;
+}
+
+
+#skills {
+  background: var(--color-4);
+  height: 100vh;
+}
+
+#skill-wrapper,
+#project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1.2em;
+  max-width: 50em;
+  min-width: 45em;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1em;
+}
