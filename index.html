@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="portfolio" content="don-zero portfolio">
+        <meta name="keywords" content="portfolio, hire, HTML, CSS, developer, web">
+        <meta name="author" content="Juma Harun">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <script src="https://kit.fontawesome.com/7c1118da26.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav id="navbar">
+            <ul id="nav-ul">
+                <li>
+                    <a href="#welcome-section">Home</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#profile-link">Contacts</a>
+                </li>
+            </ul>
+            <span id="line"></span>
+        </nav>
+        <main id="main">
 
+            <!-- Welcome Section -->
+            <section id="welcome-section" class="welcome-section">
+                <h1>Jambo, I'm <span class="highlight">Juma Harun</span></h1>
+                <p>and I and develop <span class="highlight">Websites</span></p>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2 class="headline">These are my top skills</h2>
+                <div id="skill-wrapper">
+                    <figure class="skill" id="html">
+                        <img src="assests/icons/html-5.svg" alt="html-5" loading="lazy">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure class="skill" id="css">
+                        <img src="assests/icons/css3.svg" alt="css" loading="lazy">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure class="skill" id="js">
+                        <img src="assests/icons/javascript.svg" alt="javascript" loading="lazy">
+                        <figcaption>Javascript</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2 class="headline">These are some of the projects I have worked on</h2>
+
+                <div id="project-grid">
+                    <a 
+                    href="https://don-z3r0.github.io/random-password-generator/"
+                    target="_blank"
+                    class="project project-tile"
+                    > 
+                        <img
+                        class="project-img"
+                        src="assests/images/rPassGen-Light.png"
+                        alt="project" />
+                        <p class="project-title">
+                            <span class="tag">&lt;</span>
+                            Random Password Generator
+                            <span class="tag">&#47;&gt;</span>
+                        </p>
+                    </a>
+                    <a 
+                    href="https://don-z3r0.github.io/scrimba-unit-converter/"
+                    target="_blank"
+                    class="project project-tile"
+                    >
+                        <img
+                        class="project-img"
+                        src="assests/images/uCon-Light.png"
+                        alt="project" />
+                        <p class="project-title">
+                            <span class="tag">&lt;</span>
+                            Metric/Imperial Unit Converter
+                            <span class="tag">&#47;&gt;</span>
+                        </p>
+                    </a>
+                    <a 
+                    href="https://don-z3r0.github.io/freeCodeCamp-Tribute-Page/"
+                    target="_blank"
+                    class="project project-tile"
+                    > 
+                        <img
+                        class="project-img"
+                        src="assests/images/Genghis Khan Tribute.png"
+                        alt="project"
+                        />
+                        <p class="project-title">
+                            <span class="tag">&lt;</span>
+                            Genghis Khan Tribute Page
+                            <span class="tag">&#47;&gt;</span>
+                        </p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-sect">
+                <div class="contact-sect-header">
+                    <h2>Wanna Collaborate, or maybe you just want to get acquainted?</h2>
+                    <p>Catch me on...</p>
+                </div>
+                <div class="contact-links">
+                    <a href=""
+                       class="btn contact-details">
+                       <i class="fa-solid fa-at"></i>
+                    </a>
+                    <a href=""
+                        class="btn contact-details">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href=""
+                        class="btn contact-details">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-btns">
+                <button class="btn contact-details">
+                    <i class="fa-brands fa-twitter"></i>
+                </button>
+                <button class="btn contact-details">
+                    <i class="fa-brands fa-github"></i>
+                </button>
+                <button class="btn contact-details">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+                <button class="btn contact-details">
+                    <i class="fa-brands fa-discord"></i>
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
