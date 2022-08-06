@@ -103,7 +103,6 @@ nav {
 }
 
 /* Welcome Section Styles */
-
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -174,7 +173,6 @@ nav {
 }
 
 .btn {
-  display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
 }
@@ -200,7 +198,6 @@ nav {
 }
 
 /* Contacts Section Styles */
-
 .contact-sect {
   display: flex;
   flex-direction: column;
@@ -241,8 +238,26 @@ nav {
 }
 
 /* Footer Styles */
+footer {
+  border-top: 4px solid var(--color-5);
+  padding: 2rem;
+}
 
+.footer-btns {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 28.75em;
+  margin: 0 auto;
+}
 
+footer .fa-brands {
+  font-size: 2.4rem;
+}
+
+.footer-btn {
+  border: none;
+  border-radius: 50%;
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {
