@@ -5,11 +5,11 @@
 :root {
   --font-1: 'Courgette', cursive, sans-serif;
   --font-2: 'Mouse Memoirs', sans-serif;
-  --color-1: #FFFFFF;
-  --color-2: #051622;
-  --color-3: #1BA098;
-  --color-4: #007344;
-  --color-5: #E40C2B;
+  --color-1: #FFFFFF; /* White */
+  --color-2: #051622; /* Black */
+  --color-3: #1BA098; /* Blue */
+  --color-4: #007344; /* Green */
+  --color-5: #E40C2B; /* Red */
 }
 /* Base Rates */
 * {
