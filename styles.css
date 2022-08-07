@@ -300,6 +300,10 @@ footer .fa-brands {
   .projects-section-header {
     font-size: 4rem;
   }
+
+  .contact-sect {
+    padding: 0;
+  }
   
   .contact-sect-header > h2 {
     font-size: 4rem;
