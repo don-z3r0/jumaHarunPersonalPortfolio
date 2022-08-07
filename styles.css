@@ -288,6 +288,10 @@ footer .fa-brands {
   .nav-ul {
     margin: 0 1rem;
   }
+
+  .welcome-section {
+    height: 70vh;
+  }
   
   .projects-section {
     padding: 6rem 1rem;
