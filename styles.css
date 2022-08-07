@@ -266,13 +266,13 @@ footer .fa-brands {
   }
 }
 
-@media (max-width: 9800px) {
+@media (max-width: 960px) {
   html {
     font-size: 58%;
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 540px) {
   html {
     font-size: 55%;
   }
