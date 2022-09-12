@@ -100,7 +100,6 @@ nav {
 
 .nav-ul a:hover {
   background: var(--color-3);
-  transition: all 0.2s ease-in-out;
 }
 
 /* Welcome Section Styles */
