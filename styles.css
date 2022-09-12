@@ -84,7 +84,6 @@ nav {
   background: var(--color-5);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 3;
-  transition: all 0.3s ease-out;
 }
 
 
@@ -101,6 +100,7 @@ nav {
 
 .nav-ul a:hover {
   background: var(--color-3);
+  transition: all 0.2s ease-in-out;
 }
 
 /* Welcome Section Styles */
