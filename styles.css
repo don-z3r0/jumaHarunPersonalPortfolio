@@ -83,7 +83,8 @@ nav {
   width: 100%;
   background: var(--color-5);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
+  z-index: 3;
+  transition: all 0.3s ease-out;
 }
 
 
